@@ -24,7 +24,7 @@ func main() {
 }
 
 func run() error {
-	// read config from env
+	// read config from env.
 	cfg := config.Read()
 
 	// create port repository
